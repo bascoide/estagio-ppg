@@ -1,0 +1,28 @@
+{
+  "name": "ppg",
+  "version": "1.0.0",
+  "description": "clonar o repositorio:\r ```bash\r git clone https://github.com/mizu7422/ppg\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npx tailwindcss -i ./input.css -o ./public/output.css --watch\" \"php -S localhost:5000 -t public\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizu7422/ppg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mizu7422/ppg/issues"
+  },
+  "homepage": "https://github.com/mizu7422/ppg#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.3",
+    "tailwindcss": "^4.1.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

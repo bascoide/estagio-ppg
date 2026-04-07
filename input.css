@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+input[type="text"], input[type="date"], select{
+    border-color: var(--color-gray-300) /* oklch(87.2% 0.01 258.338) = #d1d5dc */;
+}
