@@ -1,26 +1,3 @@
-# Dependências
-/vendor/
-/node_modules/
-
-# CSS compilado
-/public/output.css
-
-# Ficheiros de upload (dados locais)
-/public/uploads/generated_docs/*
-/public/uploads/submittedAdditions/*
-/public/uploads/submittedPlans/*
-/public/uploads/schema/*
-
-# Manter pastas vazias
-!/public/uploads/generated_docs/.gitkeep
-!/public/uploads/submittedAdditions/.gitkeep
-!/public/uploads/submittedPlans/.gitkeep
-!/public/uploads/schema/.gitkeep
-
-# Templates gerados
-/public/templates/*
-!/public/templates/.gitkeep
-
 # Ambiente e configuração local
 .env
 *.log
