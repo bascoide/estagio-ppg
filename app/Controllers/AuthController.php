@@ -82,11 +82,11 @@ class AuthController
                 return;
             }
 
-            if (!preg_match('/@iscap\.ipp\.pt$/', $email)) {
+            /*COMENTARIO TEMPORARIO if (!preg_match('/@iscap\.ipp\.pt$/', $email)) {
                 $_SESSION['error'] = "Apenas emails com domínio @iscap.ipp.pt são permitidos!";
                 header('Location: /register');
                 return;
-            }
+            }*/
 
             $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
 
